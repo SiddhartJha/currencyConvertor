@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 
 
 // making of a custom hook
-function currencyInfo(currency) {
+function useCurrencyInfo(currency) {
 
     const [data, setData] = useState({});
     useEffect(() => {
@@ -25,4 +25,4 @@ function currencyInfo(currency) {
 //     }
 //   }
 
-export default currencyInfo;
+export default useCurrencyInfo;
